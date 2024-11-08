@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -67,5 +65,14 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .border-border {
+    @apply border-gray-300; /* Define your preferred border color */
+  }
+  .bg-background {
+    @apply bg-gray-100; /* Define your preferred background color */
   }
 }
