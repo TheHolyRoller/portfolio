@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable prefer-const */
 "use client";
 import React, { useState } from "react";
 import {
@@ -22,20 +24,20 @@ export const FloatingNav = ({
 }) => {
   const { scrollYProgress } = useScroll();
 
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true); // Start with navbar visible
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
-    // Check if current is not undefined and is a number
     if (typeof current === "number") {
       let direction = current! - scrollYProgress.getPrevious()!;
 
+      // Check if we are near the top (0 scroll position)
       if (scrollYProgress.get() < 0.05) {
-        setVisible(false);
+        setVisible(true); // Keep navbar visible when near top
       } else {
         if (direction < 0) {
-          setVisible(true);
+          setVisible(true); // Show navbar when scrolling down
         } else {
-          setVisible(false);
+          setVisible(false); // Hide navbar when scrolling up
         }
       }
     }

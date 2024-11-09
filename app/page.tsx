@@ -18,33 +18,36 @@ import ShootingStarsAndStarsBackgroundDemo from "@/components/example/shooting-s
 
 import FloatingDockDemo from "@/components/example/floating-dock-demo";
 
+
+import FloatingNavDemo from "@/components/example/floating-navbar-demo";
+
 export default function Home() {
 
-
-
+// grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="relative">
 
 
-    <NavbarDemo/> 
+    {/* <NavbarDemo/>  */}
+
+
+
+    <FloatingNavDemo/> 
+
+    <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
     <ImagesSliderDemo/> 
+    </div>
 
-    {/* <SidebarDemo/>  */}
-
+    <div className="" style={{outline: '0px solid lime', margin:'3rem auto', width: '80vw', display: 'grid', placeContent: 'center'}} >
+      
     <TextGenerateEffectDemo/> 
+    </div>
 
     <FocusCardsDemo/> 
     <ShootingStarsAndStarsBackgroundDemo/> 
 
-    <FloatingDockDemo/>
-
-
-
-    {/* <TracingBeamDemo/>  */}
-
-      
      
     </div>
   );
