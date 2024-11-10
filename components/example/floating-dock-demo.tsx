@@ -20,7 +20,7 @@ export default function FloatingDockDemo() {
       ),
       href: "#",
     },
-
+    
     {
       title: "Products",
       icon: (

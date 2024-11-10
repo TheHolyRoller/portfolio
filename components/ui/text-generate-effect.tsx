@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const */
 "use client";
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
@@ -53,7 +54,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className=" dark:text-white text-black text-7xl leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

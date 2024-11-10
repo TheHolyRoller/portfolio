@@ -21,6 +21,8 @@ import FloatingDockDemo from "@/components/example/floating-dock-demo";
 
 import FloatingNavDemo from "@/components/example/floating-navbar-demo";
 
+import NextNav from "@/components/NextNav";
+
 export default function Home() {
 
 // grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]
@@ -33,7 +35,7 @@ export default function Home() {
 
 
 
-    <FloatingNavDemo/> 
+    {/* <FloatingNavDemo/>  */}
 
     <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
@@ -45,8 +47,19 @@ export default function Home() {
     <TextGenerateEffectDemo/> 
     </div>
 
+    <div style={{margin: '2rem auto', paddingBottom: '3rem'}} >
+
     <FocusCardsDemo/> 
+    </div>
     <ShootingStarsAndStarsBackgroundDemo/> 
+
+    <div style={{}} >
+
+    {/* <NextNav/>  */}
+    {/* <FloatingDockDemo/> */}
+
+
+    </div>
 
      
     </div>

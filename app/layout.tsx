@@ -1,6 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
+
+import FloatingDockDemo from "@/components/example/floating-dock-demo";
+import NextNav from "@/components/NextNav";
+import NavbarDemo from "@/components/nav-demo";
+import FloatingNavDemo from "@/components/example/floating-navbar-demo";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +35,25 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Add in the Navbar here  */}
+
+      <FloatingNavDemo/>
+
         {children}
+    
+    {/* Add this into a container and conditionally render it  */}
+    <div className="" >
+
+      <FloatingDockDemo/>
+    </div>
+    <div className="" >
+
+    <NextNav/> 
+    
+
+    </div>
+
+
       </body>
     </html>
   );
