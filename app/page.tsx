@@ -23,6 +23,10 @@ import FloatingNavDemo from "@/components/example/floating-navbar-demo";
 
 import NextNav from "@/components/NextNav";
 
+
+import CardImage from '../components/CardImage'; 
+
+
 export default function Home() {
 
 // grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]
@@ -33,30 +37,34 @@ export default function Home() {
 
     {/* <NavbarDemo/>  */}
 
+    <CardImage/>
+    
+
+
+    {/* Add in the Image Card here  */}
+
 
 
     {/* <FloatingNavDemo/>  */}
 
     <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
-    <ImagesSliderDemo/> 
+    {/* <ImagesSliderDemo/>  */}
     </div>
 
     <div className="" style={{outline: '0px solid lime', margin:'3rem auto', width: '80vw', display: 'grid', placeContent: 'center'}} >
       
-    <TextGenerateEffectDemo/> 
+    {/* <TextGenerateEffectDemo/>  */}
     </div>
 
     <div style={{margin: '2rem auto', paddingBottom: '3rem'}} >
 
-    <FocusCardsDemo/> 
+    {/* <FocusCardsDemo/>  */}
     </div>
-    <ShootingStarsAndStarsBackgroundDemo/> 
+    {/* <ShootingStarsAndStarsBackgroundDemo/>  */}
 
     <div style={{}} >
 
-    {/* <NextNav/>  */}
-    {/* <FloatingDockDemo/> */}
 
 
     </div>
