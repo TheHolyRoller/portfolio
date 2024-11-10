@@ -2,21 +2,17 @@
 
 
 .cardImageContainer{
-
-
-    /* outline: 5px solid lime; */
     width: 17.313rem;
-    height: 27.438rem; 
-
+    height: 27.438rem;
     background-color: #27272a;
-    color: #dededf; 
-
+    color: #dededf;
     margin: 5rem auto;
-
-
-
-
-
+    border-radius: 15px ;
+    cursor: pointer;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
 }
 
 
@@ -26,8 +22,8 @@
 
     width: 87%;
 
-    outline: 1px solid red;
     margin: 0 auto;
+
 
 
 }
@@ -36,8 +32,12 @@
 .image{
 
 
-    width: 100%; 
+    /* width: 100%;  */
+    width: 17.313rem; 
+    
     height: 11rem; 
+    /* outline: 0.5px solid hotpink; */
+
 
     background-position: center;
     background-repeat: no-repeat;
@@ -53,6 +53,9 @@
 
 
 .headerContainer{
+
+
+    color: white;
 
 
 
@@ -80,9 +83,8 @@
 
 
 
-    /* outline: 4px solid lime; */
-
     margin-top: 2rem;
+    margin-bottom: 2.2rem;
 
 
 
@@ -118,13 +120,27 @@
 
 
 
-
 }
 
 
 .listItem{
 
 
+
+    display: inline-block;
+    margin-right:  1.25rem;
+    color: #535762; 
+
+
+
+
+
+}
+
+
+#sourceIcon{
+
+    /* margin-right: 0.5rem; */
 
 
 }
@@ -135,13 +151,13 @@
 
 
 
-
     
 }
 
 
 .iconContainer{
 
+   
 
 
 
@@ -150,6 +166,18 @@
 
 
 #sourceCodeText{
+
+
+
+
+
+}
+
+
+.sourceCodeListItem{
+
+display: inline-block;
+
 
 
 
