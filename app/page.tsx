@@ -25,6 +25,7 @@ import NextNav from "@/components/NextNav";
 
 
 import CardImage from '../components/CardImage'; 
+import Footer from '../components/Footer'; 
 
 
 export default function Home() {
@@ -37,8 +38,10 @@ export default function Home() {
 
     {/* <NavbarDemo/>  */}
 
-    <CardImage/>
-    
+    {/* <CardImage/> */}
+    {/* <Footer/> */}
+
+
 
 
     {/* Add in the Image Card here  */}
@@ -49,23 +52,25 @@ export default function Home() {
 
     <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
-    {/* <ImagesSliderDemo/>  */}
+    <ImagesSliderDemo/> 
     </div>
 
     <div className="" style={{outline: '0px solid lime', margin:'3rem auto', width: '80vw', display: 'grid', placeContent: 'center'}} >
       
-    {/* <TextGenerateEffectDemo/>  */}
+    <TextGenerateEffectDemo/> 
     </div>
 
     <div style={{margin: '2rem auto', paddingBottom: '3rem'}} >
 
-    {/* <FocusCardsDemo/>  */}
+    <FocusCardsDemo/> 
     </div>
-    {/* <ShootingStarsAndStarsBackgroundDemo/>  */}
+    <ShootingStarsAndStarsBackgroundDemo/> 
 
     <div style={{}} >
 
+    <Footer/> 
 
+    
 
     </div>
 
