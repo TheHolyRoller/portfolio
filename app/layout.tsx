@@ -8,6 +8,7 @@ import FloatingDockDemo from "@/components/example/floating-dock-demo";
 import NextNav from "@/components/NextNav";
 import NavbarDemo from "@/components/nav-demo";
 import FloatingNavDemo from "@/components/example/floating-navbar-demo";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,16 +36,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Add in the Navbar here  */}
+      <div style={{position: 'relative', zIndex: '20', outline: '0px solid lime'}} >
+        
+      </div>
 
       <FloatingNavDemo/>
-
+    
         {children}
     
     {/* Add this into a container and conditionally render it  */}
     <div className="" >
 
-      {/* <FloatingDockDemo/> */}
+    <Footer/> 
+
+
+
     </div>
     <div className="" >
 
