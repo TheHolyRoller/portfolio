@@ -29,7 +29,9 @@ import Footer from '../components/Footer';
 import AnimateText from '../components/AnimateText'; 
 import ImageText from "@/components/ImageText";
 // import image from '../assets/Lake.jpg'; 
-import image from '../assets/GoodSelfie.jpg'; 
+import image from '../assets/GoodSelfie.jpg';
+import CardGrid from "@/components/CardGrid"; 
+import FeatureBlock from "@/components/FeatureBlock";
 
 
 
@@ -44,7 +46,11 @@ export default function Home() {
     <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
 
-    <ImageText image={image} title={""} text={""} />
+    {/* <ImageText image={image} title={""} text={""} /> */}
+
+    <FeatureBlock/>
+
+    {/* <CardGrid/> */}
 
 
     {/* Add in the grid here  */}

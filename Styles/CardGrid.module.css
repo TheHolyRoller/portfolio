@@ -1,25 +1,160 @@
 
 
 
+.cardGridContainer{
+
+
+
+
+
+}
+
+
+
+.cardGrid{
+
+
+    display: flex; 
+    gap: 1rem; 
+
+
+
+}
+
+
+
+.gridItem{
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+    width: 155px;
+    background-color: white;
+    height: 105px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+
+.image{
+    min-height: 94px;
+    width: 143px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+
+
+    margin: auto;
+}
+
+
+
+
+.gridItem:hover{
+
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.15); /* Multiple shadows */
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 970px){
+
+
+    .cardGrid{
+
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 4.5rem; 
+    
+    
+    
+    }
+
+
+    /* Adjust the size of the images here  */
+    .image{
+
+
+        min-height: 137px;
+       min-width: 205px;
+
+        aspect-ratio: 1.5;
+
+
+
+
+
+    }
+
+
+
+}
+
+
+@media(max-width: 750px){
+
+
+
+
+    /* Adjust the size of the images here  */
+    .image{
+
+
+
+
+        min-width: 30vw !important;
+        
+        /* min-width: 144px;  */
+
+
+
+
+
+        aspect-ratio: 1.5;
+
+
+
+
+
+    }
+
+
+    .cardGrid{
+
+
+        display: grid;
+        grid-template-columns: minmax(5px, 1fr) minmax(5px, 1fr) !important; 
+        /* grid-template-columns: 1fr 1fr; */
+        gap: 3.5rem; 
+        height: max-content;
+        padding-right: 7%;
+        width: 90%; 
+
+        margin: auto; 
+
+    
+    
+    
+    }
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
