@@ -3,6 +3,11 @@ import React from 'react';
 import ab from '../../Styles/About.module.css'; 
 import BackgroundBoxesDemo from '@/components/example/background-boxes-demo';
 import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
+import ImageText from '@/components/ImageText';
+
+// import the static assets here 
+import image from '../../assets/Lake.jpg'; 
+
 
 function page() {
 
@@ -63,7 +68,7 @@ function page() {
     {/* Add in the headline container here  */}
     <div className={ab.headlineContainer}  >
 
-        
+        {/* Add in the text effect here  */}
 
 
     </div>
@@ -72,6 +77,7 @@ function page() {
 
     <div className={ab.featureBlockContainer}>
 
+    <ImageText image={image} title='about.' text='' /> 
 
 
 
@@ -82,26 +88,11 @@ function page() {
 
     <div className={ab.testimonialContainer}>
 
+    
 
     <AnimatedTestimonials testimonials={testimonials} /> 
 
-
-
-
     </div>
-
-
-
-
-
-
-
-
-    {/* <BackgroundBoxesDemo/>  */}
-
-
-
-
 
     </div>
 

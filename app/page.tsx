@@ -27,6 +27,9 @@ import NextNav from "@/components/NextNav";
 import CardImage from '../components/CardImage'; 
 import Footer from '../components/Footer'; 
 import AnimateText from '../components/AnimateText'; 
+import ImageText from "@/components/ImageText";
+// import image from '../assets/Lake.jpg'; 
+import image from '../assets/GoodSelfie.jpg'; 
 
 
 
@@ -40,10 +43,11 @@ export default function Home() {
 
     <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
-    {/* Add in the text effect here  */}
-    <AnimateText/>
+
+    <ImageText image={image} title={""} text={""} />
 
 
+    {/* Add in the grid here  */}
 
     {/* <ImagesSliderDemo/>  */}
     </div>
@@ -51,6 +55,8 @@ export default function Home() {
     <div className="" style={{outline: '0px solid lime', margin:'3rem auto', width: '80vw', display: 'grid', placeContent: 'center'}} >
       
     {/* <TextGenerateEffectDemo/>  */}
+
+    
     </div>
 
     <div style={{margin: '2rem auto', paddingBottom: '3rem'}} >
