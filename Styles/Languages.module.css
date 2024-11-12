@@ -1,8 +1,119 @@
 
 
+.languagesContainer{
+
+
+    width: 80vw; 
+
+    
+    margin: 6rem auto; 
+    position: relative;
+    display: grid;
+    place-content: center;
+    
+
+
+
+}
+
+
+
+.languagesGridContainer{
+
+
+
+display: grid;
+place-content: center;
+
+grid-template-columns: repeat(6, 1fr);
+
+gap: 2rem; 
+
+
+
+}
+
+
+
+.listItem{
+
+
+
+display: inline-block;  
+width: 10vw; 
+
+min-width: 4.688rem; 
 
 
 
 
+
+}
+
+
+/* Add in the media queries here  */
+
+@media(max-width: 900px){
+
+    .languagesGridContainer{
+
+
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+        gap: 2rem; 
+        
+        
+        
+        }
+    
+}
+
+
+
+
+
+/* Add in the media queries here  */
+
+@media(max-width: 600px){
+
+    .languagesGridContainer{
+
+
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        gap: 2rem; 
+        
+        
+        
+        }
+    
+}
+
+
+
+
+/* Add in the media queries here  */
+
+@media(max-width: 400px){
+
+    .languagesGridContainer{
+
+
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        
+        gap: 2rem; 
+        
+        
+        
+        }
+    
+}
 
 

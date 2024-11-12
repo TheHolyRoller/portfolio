@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     domains: ["assets.aceternity.com", "images.unsplash.com", "devpro-aceternity.vercel.app"],
   },
   
+  
 };
 
 export default nextConfig;
