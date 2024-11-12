@@ -33,6 +33,7 @@ import image from '../assets/GoodSelfie.jpg';
 import CardGrid from "@/components/CardGrid"; 
 import FeatureBlock from "@/components/FeatureBlock";
 import Languages from '../components/Languages'; 
+import AnimatedTooltipPreview from "@/components/example/animated-tooltip-demo";
 
 
 
@@ -44,12 +45,15 @@ export default function Home() {
     <div className="relative">
 
 
-    <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
+    <div style={{width: '100vw', outline: '0px solid lime', margin: ' 3rem auto', display: 'grid', placeContent: 'center'}} >
 
 
     
 
     <Languages/> 
+
+    {/* <AnimatedTooltipPreview/>  */}
+
 
 
 

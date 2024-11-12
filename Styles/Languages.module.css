@@ -3,14 +3,15 @@
 .languagesContainer{
 
 
-    width: 80vw; 
+    width: 90vw; 
+    
+    margin: auto; 
 
     
-    margin: 6rem auto; 
     position: relative;
     display: grid;
     place-content: center;
-    
+
 
 
 
@@ -24,10 +25,13 @@
 
 display: grid;
 place-content: center;
+width: min-content; 
 
-grid-template-columns: repeat(6, 1fr);
+
+grid-template-columns: repeat(11, 1fr);
 
 gap: 2rem; 
+
 
 
 
@@ -39,11 +43,12 @@ gap: 2rem;
 
 
 
-display: inline-block;  
+/* display: flex;  */
+
 width: 10vw; 
+/* place-content: center; */
 
 min-width: 4.688rem; 
-
 
 
 
@@ -51,7 +56,73 @@ min-width: 4.688rem;
 }
 
 
+
+
+.iconContainer{
+
+
+
+}
+
+
 /* Add in the media queries here  */
+@media(min-width: 1300px){
+
+
+/* Add in the list item here  */
+
+
+.listItem{
+
+
+
+    width: 6vw; 
+
+
+}
+
+#prisma{
+
+
+margin-left: 3.3rem; 
+
+
+
+}
+
+
+
+
+}
+
+
+@media(max-width: 1300px){
+
+    .listItem{
+
+
+
+
+
+    }
+
+    .languagesGridContainer{
+    
+    
+
+    grid-template-columns: repeat(5, 1fr);
+    
+    
+    
+    }
+
+
+
+
+}
+
+
+
 
 @media(max-width: 900px){
 
@@ -113,7 +184,54 @@ min-width: 4.688rem;
         
         
         }
+
+
+        .listItem{
+
+
+            /* display: none;   */
+
+        }
     
+}
+
+
+@media(min-width: 500px){
+
+    .listItem{
+
+
+        /* display: none !important;   */
+
+
+        
+    }
+
+
+
+}
+
+
+@media(max-width: 500px){
+
+
+    .listItem{
+
+
+        /* display: none;   */
+
+
+        
+    }
+
+    .iconContainer{
+
+   
+
+
+    }
+
+
 }
 
 
