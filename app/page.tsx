@@ -32,6 +32,7 @@ import ImageText from "@/components/ImageText";
 import image from '../assets/GoodSelfie.jpg';
 import CardGrid from "@/components/CardGrid"; 
 import FeatureBlock from "@/components/FeatureBlock";
+import Languages from '../components/Languages'; 
 
 
 
@@ -46,11 +47,14 @@ export default function Home() {
     <div style={{width: '100vw', outline: '0px solid lime', margin: 'auto', display: 'grid', placeContent: 'center'}} >
 
 
-    {/* <ImageText image={image} title={""} text={""} /> */}
+    
 
-    <FeatureBlock/>
+    <Languages/> 
 
-    {/* <CardGrid/> */}
+
+
+
+   
 
 
     {/* Add in the grid here  */}

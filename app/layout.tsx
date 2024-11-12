@@ -47,7 +47,7 @@ export default function RootLayout({
     {/* Add this into a container and conditionally render it  */}
     <div className="" >
 
-    <Footer/> 
+    {/* <Footer/>  */}
 
 
 
