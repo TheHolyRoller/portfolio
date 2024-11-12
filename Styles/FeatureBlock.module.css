@@ -15,6 +15,12 @@
 
         margin: 1rem auto !important; 
 
+
+        font-size: 1.25rem;
+        color: #333333; 
+
+
+
     }
     #componentcontainer{
     background-color: white; 
@@ -88,13 +94,11 @@
         margin: 0 auto !important;
         display: grid;
         justify-content: center;
-        outline: 1px solid red;
-        /*margin-top: -4rem !important;
-        */transform: translate(0, -5rem) ;
-        -webkit-transform:translate(0, -5rem) ;
-        -moz-transform:translate(0, -5rem) ;
-        -ms-transform:translate(0, -5rem) ;
-        -o-transform:translate(0, -5rem) ;
+        transform: translate(0, -3rem) ;
+        -webkit-transform: translate(0, -3rem) ;
+        -moz-transform: translate(0, -3rem) ;
+        -ms-transform: translate(0, -3rem) ;
+        -o-transform: translate(0, -3rem) ;
 }
 
 
