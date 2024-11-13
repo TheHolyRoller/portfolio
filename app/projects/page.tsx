@@ -22,6 +22,7 @@ function page() {
         <div className={p.heroContainer} >
 
         <ImageSlider/>
+        
 
         </div>
 

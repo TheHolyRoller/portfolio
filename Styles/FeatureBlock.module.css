@@ -1,13 +1,4 @@
-#backgroundcontainer{
-    box-sizing: border-box; 
-    width: 100vw; 
-    min-height: 100vh; 
-    background-color: #ffffff !important;
-    position: relative; 
-    z-index: 200; 
-    display: grid;
-    place-content: center;
-    }
+
 
     
     .textItem{
@@ -80,6 +71,7 @@
         max-width: 650px; 
     }
  
+
 
 
 
@@ -177,6 +169,27 @@
         #valuesbutton{
             margin-top: 0.5rem !important; 
         }
+
+        #backgroundcontainer{
+
+
+            margin-top: -4rem;
+
+            }
+
+        #toptextcontainer{
+            width: 80vw !important; 
+            max-width: 800px; 
+
+            margin-bottom: 15rem !important;    
+
+
+            }
+
+        
+
+
+
     }
     @media(max-width: 375px){
             #textlistitem{

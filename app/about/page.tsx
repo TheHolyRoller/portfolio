@@ -10,8 +10,7 @@ import TypewriterEffectDemo from '@/components/example/typewriter-effect-demo-2'
 // import { Cover } from '@/components/ui/cover';
 import CoverDemo from '@/components/example/cover-demo';
 import FeatureBlock from '@/components/FeatureBlock';
-// import ImageGrid from '../../components/'
-
+import CardGrid from '@/components/CardGrid';
 
 // import the static assets here 
 import image from '../../assets/Lake.jpg'; 
@@ -73,13 +72,7 @@ function page() {
     </div>
 
 
-    {/* Add in the headline container here  */}
-    <div className={ab.headlineContainer}  >
-
-        {/* Add in the text effect here  */}
-
-
-    </div>
+ 
     
     {/* Add in the feature block container here  */}
 
@@ -96,6 +89,7 @@ function page() {
 
     <div className={ab.imageGridContainer} >
 
+    <CardGrid/>
 
 
 
@@ -105,7 +99,7 @@ function page() {
     {/* Add in the feature block container here  */}
     <div className={ab.featureBlockContainer} >
 
-
+    <FeatureBlock/>
 
 
     </div>

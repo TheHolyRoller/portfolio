@@ -78,6 +78,10 @@ max-height: 440px;
 
 
 }
+
+
+
+
 /* ----TEXT SECTION------ */
 #textsectioncontainer{
 position: relative;
@@ -238,6 +242,15 @@ transform: translate(0rem, 0vh);
     
     
     }
+
+    #image{
+
+        /* outline: 2px solid red; */
+        margin-top: -1rem; 
+
+
+
+    }
     
     #imagesubcontainer{
 
@@ -301,8 +314,8 @@ transform: translate(0rem, 0vh);
     
     width: 75vw; 
 
-    /* margin-top: 4.5rem; */
-    
+    /* margin-top: -5.5rem; */
+    /* outline: 2px solid red; */
 
         
         

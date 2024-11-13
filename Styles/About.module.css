@@ -78,9 +78,35 @@
 }
 
 
+.imageGridContainer{
+
+
+    /* outline: 1px solid red; */
+    display: grid;
+    place-content: center;
+    margin-top: -10rem; 
 
 
 
+}
+
+
+
+
+@media(max-width: 900px){
+
+    .customerHeadline{
+
+        margin-bottom: -6rem;
+        margin-top: 5rem;
+
+    
+    }
+
+
+
+
+}
 
 
 

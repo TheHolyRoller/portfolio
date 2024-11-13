@@ -12,7 +12,6 @@ import work from '../assets/workspace.jpg';
 
 
 
-
 function CardGrid() {
   return (
     <div className={c.cardGridContainer}>   

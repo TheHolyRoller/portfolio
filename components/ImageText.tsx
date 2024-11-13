@@ -28,8 +28,6 @@ const introText = "I'm a web developer based in sunny Tirana, Albania.";
 const ImageText: React.FC<ImageTextProps> = ({image}) => {
 
 
-
-
   return (
     <div id={img.backgroundcontainer}>
       {/* Main component container */}
