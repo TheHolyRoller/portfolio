@@ -4,6 +4,12 @@ import ab from '../../Styles/About.module.css';
 import BackgroundBoxesDemo from '@/components/example/background-boxes-demo';
 import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
 import ImageText from '@/components/ImageText';
+import Languages from '@/components/Languages';
+import TypewriterEffectDemo from '@/components/example/typewriter-effect-demo-2';
+
+// import { Cover } from '@/components/ui/cover';
+import CoverDemo from '@/components/example/cover-demo';
+
 
 // import the static assets here 
 import image from '../../assets/Lake.jpg'; 
@@ -84,6 +90,17 @@ function page() {
     </div>
 
 
+    <div className={ab.customerHeadline} >
+
+      
+      <TypewriterEffectDemo/> 
+
+
+
+
+    </div>
+
+
     {/* Add in the customer testimonials container here  */}
 
     <div className={ab.testimonialContainer}>
@@ -93,6 +110,26 @@ function page() {
     <AnimatedTestimonials testimonials={testimonials} /> 
 
     </div>
+
+
+
+    <div className={ab.skillsText} > 
+
+    {/* <Cover/>  */}
+    <CoverDemo/>
+
+    </div>
+
+
+    <div className={ab.languages}>
+
+    <Languages/> 
+
+
+
+
+    </div>
+
 
     </div>
 
