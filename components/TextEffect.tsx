@@ -86,7 +86,7 @@ const RandomWordEffect: React.FC = () => {
     setTimeout(() => {
       clearInterval(intervalRef.current!); // Clear the interval after timeout
       setFinalWord(initialWordRef.current); // Display the actual word after timeout
-      setCount(0);
+      setCount(0);   
       setGlobalCount(0);
       setCanChange(false);
       setIsGoing(false); // Reset the effect state

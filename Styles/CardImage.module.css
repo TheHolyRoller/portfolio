@@ -13,6 +13,12 @@
     -moz-border-radius: 15px ;
     -ms-border-radius: 15px ;
     -o-border-radius: 15px ;
+
+    overflow: hidden;
+
+
+    position: relative;
+    z-index: 30;
 }
 
 
@@ -20,10 +26,14 @@
 .cardImageSubContainer{
 
 
-    width: 87%;
+    width: 100%;
+    /* border-top-right-radius: 10px; */
+    /* border-top-left-radius: 10px;  */
+    
 
     margin: 0 auto;
-
+    /* padding-left: 1rem;  */
+    
 
 
 }
@@ -32,14 +42,20 @@
 .image{
 
 
-    /* width: 100%;  */
+    /* width: 100%; */
+    /* height: ;  */
     width: 17.313rem; 
     
     height: 11rem; 
+    padding-top: 1.4px;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
+    
 
 
 
@@ -54,6 +70,8 @@
 
 
     color: white;
+    margin-left: 0.5rem; 
+    
 
 
 
@@ -83,6 +101,9 @@
 
     margin-top: 2rem;
     margin-bottom: 2.2rem;
+
+    margin-left: 0.5rem; 
+
 
 
 
@@ -114,6 +135,8 @@
 
 
 .iconList{
+
+    margin-left: 0.5rem;
 
 
 
@@ -175,6 +198,9 @@
 .sourceCodeListItem{
 
 display: inline-block;
+
+margin-left: 0.5rem; 
+
 
 
 

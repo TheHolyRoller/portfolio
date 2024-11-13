@@ -1,16 +1,24 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prefer-const */
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import CardImage from "../CardImage";
+import zIndex from "@mui/material/styles/zIndex";
+
+
 
 export const HoverEffect = ({
   items,
   className,
 }: {
   items: {
+
+    image: string,
     title: string;
-    description: string;
-    link: string;
+    text: string;
+    url: string;
   }[];
   className?: string;
 }) => {
@@ -22,11 +30,12 @@ export const HoverEffect = ({
         "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
         className
       )}
+      
     >
       {items.map((item, idx) => (
         <Link
-          href={item?.link}
-          key={item?.link}
+          href={item?.url}
+          key={item?.url}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -48,10 +57,14 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          {/* <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
-          </Card>
+          </Card> */}
+
+          <CardImage image={item.image}  title={item.title} text={item.text} url={item.url}  ></CardImage>
+
+
         </Link>
       ))}
     </div>

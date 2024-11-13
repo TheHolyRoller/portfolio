@@ -41,14 +41,13 @@ export default function RootLayout({
       </div>
 
       <FloatingNavDemo/>
+
     
         {children}
     
-    {/* Add this into a container and conditionally render it  */}
     <div className="" >
 
-    {/* <Footer/>  */}
-
+    <Footer/> 
 
 
     </div>

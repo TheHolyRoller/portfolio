@@ -35,6 +35,8 @@
     "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
+    "@formspark/formtrack": "^0.1.36",
+    "@formspark/use-formspark": "^0.1.39",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

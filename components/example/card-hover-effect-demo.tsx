@@ -1,5 +1,7 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 
+import algo from '../../assets/algochurn.webp'; 
+
 export default function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mx-auto px-8">
@@ -7,41 +9,50 @@ export default function CardHoverEffectDemo() {
     </div>
   );
 }
+
+
+// 
 export const projects = [
-  {
+  { 
+    image: algo.src,
     title: "Stripe",
-    description:
+    text:
       "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+    url: "https://stripe.com",
   },
-  {
+  { 
+    image: algo.src,
     title: "Netflix",
-    description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+    text:
+      "A web design and development agency that gets the job done. Somehow.",
+    url: "https://netflix.com",
   },
-  {
+  { 
+    image: algo.src,
     title: "Google",
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+    text:
+      "A web design and development agency that gets the job done. Somehow.",
+    url: "https://google.com",
   },
-  {
+  { 
+    image: algo.src,
     title: "Meta",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+    text:
+      "A web design and development agency that gets the job done. Somehow.",
+    url: "https://meta.com",
   },
-  {
+  { 
+    image: algo.src,
     title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+    text:
+      "A web design and development agency that gets the job done. Somehow.",
+    url: "https://amazon.com",
   },
-  {
+  { 
+    image: algo.src,
     title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+    text:
+      "A web design and development agency that gets the job done. Somehow.",
+    url: "https://microsoft.com",
   },
 ];

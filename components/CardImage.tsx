@@ -6,24 +6,38 @@ import ci from '../Styles/CardImage.module.css';
 
 import card from '../assets/algochurn.webp'; 
 
+interface CardImageProps{
+
+image: string, 
+
+title: string, 
+
+text: string, 
+
+url: string
 
 
 
-function CardImage() {
+}
+
+
+
+function CardImage({image, title, text, url}: CardImageProps ) {
   return (
     <div className={ci.cardImageContainer}>
 
     <div className={ci.cardImageSubContainer}>
 
     {/* src="https://devpro-aceternity.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Falgochurn.png&w=3840&q=75" */}
-    <Image className={ci.image} src={card}   alt="project" width={50} height={50} />
+    <Image className={ci.image} src={image}   alt="project" width={100} height={50} />
 
 
     <div className={ci.headerContainer} >
 
     <h5  id={ci.cardHeader} className='class="text-zinc-100 font-bold tracking-wide mt-4"'>
 
-    Algochurn
+    {/* Algochurn */}
+    {title}
 
 
 
@@ -36,7 +50,8 @@ function CardImage() {
 
     <div id={ci.cardText} className='mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm'>
 
-    A web app that allows users to practice for front-end and UI interviews. 
+    {/* A web app that allows users to practice for front-end and UI interviews.  */}
+    {text}
 
 
     </div>
@@ -102,7 +117,12 @@ function CardImage() {
     <li className={ci.sourceCodeListItem}  >
 
     <p id={ci.sourceCodeText}  className="text-zinc-500 group-hover:text-cyan-500 text-xs">
+
+    {/* Add in a link here and use props to fill in the url  */}
+
+      <a href={url}>
         View Source
+      </a>
 
     </p>
     </li>
