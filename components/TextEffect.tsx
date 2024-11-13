@@ -23,7 +23,7 @@ function getRandomWord(word: string): string {
 
 const RandomWordEffect: React.FC = () => {
   // State variables
-  const [word] = useState<string>("All your base are belong to us");
+  const [word] = useState<string>("");
   const [finalWord, setFinalWord] = useState<string>(word);
   const [count, setCount] = useState<number>(0);
   const [globalCount, setGlobalCount] = useState<number>(0);

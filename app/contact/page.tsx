@@ -24,12 +24,12 @@ function page() {
       </div>
 
       {/* Add in the text Effect container here  */}
-      <div className={ct.textEffectContainer}  >  
+      {/* <div className={ct.textEffectContainer}  >  
 
     <TextEffect/> 
 
 
-      </div>
+      </div> */}
 
 
 
