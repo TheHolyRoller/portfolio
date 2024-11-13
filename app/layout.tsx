@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 
+
 import FloatingDockDemo from "@/components/example/floating-dock-demo";
 import NextNav from "@/components/NextNav";
 import NavbarDemo from "@/components/nav-demo";
@@ -41,7 +42,6 @@ export default function RootLayout({
       </div>
 
       <FloatingNavDemo/>
-
     
         {children}
     

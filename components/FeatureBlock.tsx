@@ -34,8 +34,6 @@ function FeatureBlock() {
     <div id={m.imagesubcontainer}>
 
       
-      {/* {props.image} */}
-      
     <Image
     src={yoda}
     id={m.image}

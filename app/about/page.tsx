@@ -9,6 +9,8 @@ import TypewriterEffectDemo from '@/components/example/typewriter-effect-demo-2'
 
 // import { Cover } from '@/components/ui/cover';
 import CoverDemo from '@/components/example/cover-demo';
+import FeatureBlock from '@/components/FeatureBlock';
+// import ImageGrid from '../../components/'
 
 
 // import the static assets here 
@@ -89,6 +91,24 @@ function page() {
 
     </div>
 
+
+    {/* Add in the image grid container here  */}
+
+    <div className={ab.imageGridContainer} >
+
+
+
+
+    </div>
+
+
+    {/* Add in the feature block container here  */}
+    <div className={ab.featureBlockContainer} >
+
+
+
+
+    </div>
 
     <div className={ab.customerHeadline} >
 
