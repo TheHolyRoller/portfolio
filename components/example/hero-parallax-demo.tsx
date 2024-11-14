@@ -5,6 +5,7 @@ import { HeroParallax } from "../ui/hero-parallax";
 export default function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
+
 export const products = [
   {
     title: "Moonbeam",
@@ -18,6 +19,7 @@ export const products = [
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/cursor.png",
   },
+  
   {
     title: "Rogue",
     link: "https://userogue.com",

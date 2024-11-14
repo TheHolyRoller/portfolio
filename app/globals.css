@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -75,4 +79,31 @@
   .bg-background {
     @apply bg-gray-100; /* Define your preferred background color */
   }
+}
+
+
+.button-container-home-page{
+
+
+
+  margin-top: -18rem;
+
+  
+}
+
+
+@media(max-width: 800px){
+
+
+  .button-container-home-page{
+
+
+
+    margin-top: -17rem;
+  
+    
+  }
+
+
+
 }

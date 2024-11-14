@@ -12,18 +12,21 @@ import TextEffect from '../../components/TextEffect';
 // import CardHoverEffectDemo from '@/components/example/card-hover-effect-demo';
 import Headline from '@/components/Headline';
 
+import HeroParallaxDemo from '@/components/example/hero-parallax-demo';
+
 function page() {
   return (
     <div className={p.projectsContainer} >
 
 
 
+
         {/* Add in the Hero Container here  */}
         <div className={p.heroContainer} >
 
-        <ImageSlider/>
-        
+        {/* <ImageSlider/> */}
 
+        <HeroParallaxDemo/> 
 
         </div>
 

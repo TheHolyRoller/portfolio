@@ -1,3 +1,4 @@
+'use client';
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import Image from "next/image";
 // import Nav from '../components/ui/navbar-menu'; 
@@ -39,7 +40,22 @@ import FeatureBlock from "@/components/FeatureBlock";
 import Languages from '../components/Languages'; 
 import AnimatedTooltipPreview from "@/components/example/animated-tooltip-demo";
 
+import styled from "styled-components";
 
+const MyDiv = styled.div`
+ 
+
+  @media (max-width: 900px) {
+
+
+  margin-top: -5rem; 
+
+  // outline: 2000px solid red;
+
+
+    
+  }
+`;
 
 
 
@@ -65,22 +81,22 @@ export default function Home() {
 
     <div style={{margin: '2rem auto', paddingBottom: '3rem'}} >
 
-    {/* <FocusCardsDemo/>  */}
+
+    <MyDiv>
+
     <CardHoverEffectDemo/>
-    {/* Add in the project Cards here */}
+ 
+    </MyDiv>
+
+
      </div>
 
-
-    
-
-    <div className="" style={{}} >
-    </div>
-
     <ShootingStarsAndStarsBackgroundDemo/> 
-    {/* <Button/>  */}
 
+    <div className="button-container-home-page" >
 
-
+    <Button/> 
+    </div>
      
     </div>
   );

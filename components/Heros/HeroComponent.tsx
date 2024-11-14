@@ -25,7 +25,7 @@ const HeroComponent: React.FC = () => {
     <div className={styles.hero}>
       <div className={`${styles.screen} ${styles.blcScr}`}></div>
       <div className={`${styles.screen} ${styles.witScr}`}></div>
-      <div className={styles.introText}>CoderooZ</div>
+      <div className={styles.introText}>ProCoder</div>
       <div className={styles.heroIntro}>
         <img
           src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg"

@@ -5,6 +5,7 @@ import ft from '../Styles/Footer.module.css';
 
 
 
+
 function Footer() {
   return (
         <footer className={ft.footerMainContainer}>
@@ -31,6 +32,7 @@ function Footer() {
 
 
         </span>
+
 
 
         <span className='relative z-10 px-2 py-2 inline-block  cursor-pointer' >
