@@ -37,6 +37,8 @@ import AnimatedTooltipPreview from "@/components/example/animated-tooltip-demo";
 
 
 
+
+
 export default function Home() {
 
 // grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]
@@ -50,9 +52,12 @@ export default function Home() {
 
     
 
+    
+
     {/* <Languages/>  */}
 
     {/* <AnimatedTooltipPreview/>  */}
+
 
 
 
@@ -62,6 +67,8 @@ export default function Home() {
 
 
     {/* Add in the grid here  */}
+
+    {/*  */}
 
     <ImagesSliderDemo/> 
     </div>
@@ -78,14 +85,6 @@ export default function Home() {
     <FocusCardsDemo/> 
     </div>
     <ShootingStarsAndStarsBackgroundDemo/> 
-
-    <div style={{}} >
-
-    {/* <Footer/>  */}
-
-    
-
-    </div>
 
      
     </div>
