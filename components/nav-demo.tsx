@@ -35,6 +35,7 @@ function Navbar({ className }: { className?: string }) {
               src="https://assets.aceternity.com/demos/algochurn.webp"
               description="Prepare for tech interviews like never before."
             />
+            
             <ProductItem
               title="Tailwind Master Kit"
               href="https://tailwindmasterkit.com"
