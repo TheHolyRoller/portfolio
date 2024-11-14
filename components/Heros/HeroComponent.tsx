@@ -37,7 +37,7 @@ const HeroComponent: React.FC = () => {
           <p className={styles.prof}>{profText}</p>
         </div>
       </div>
-      <div className={styles.otherContent}>Other content</div>
+      {/* <div className={styles.otherContent} style={{fontSize: '1rem'}} >Other content</div> */}
     </div>
   );
 };

@@ -14,12 +14,14 @@
   .otherConten {
     width: 100vh;
     height: 100vh;
-    background-color: red;
+
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+
+    font-size: clamp(1rem, 0.4vw + 1rem, 4rem);
     color: white;
   }
   
@@ -48,7 +50,7 @@
     font-size: 4rem;
     font-weight: bold;
     font-family: "Roboto Condensed", sans-serif;
-    z-index: 3;
+    z-index: 5;
     top: 50%;
     left: 50%;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
@@ -84,15 +86,16 @@
     opacity: 0;
     animation: fadeInImage 1.5s forwards 4s;
   }
+
   
   .heroText {
     position: relative;
     z-index: 5;
     padding: 10px;
     margin: 10px;
-    /* margin-left: 3rem; 
-    outline: 4px solid lime; */
+    
     font-family: "Bebas Neue", sans-serif;
+
   }
   
   .heroText p {
@@ -114,12 +117,20 @@
   
   /* Text cycling effect */
   .prof {
-    font-size: 2.5rem;
+
+    /* Clamp the font size here */
+    /* font-size: 2.5rem; */
+    font-size: clamp(1rem, 2vw + 1rem, 3.5rem); 
     font-weight: bold;
     opacity: 0;
     animation: textFadeInOut 6s infinite;
     display: inline-block;
   }
+
+
+  
+
+
   
   /* Fade in and out animation for cycling text */
   @keyframes textFadeInOut {
@@ -210,3 +221,83 @@
     }
   }
   
+
+
+  @media(max-width: 850px){
+
+
+    .introText {
+      
+
+      font-size: clamp(1rem, 5vw + 1rem, 4rem) !important;
+
+
+    }
+
+
+
+  }
+
+
+  @media(max-width: 620px){
+
+
+    .prof {
+
+      font-size: clamp(1rem, 0.4vw + 1rem, 3.5rem); 
+
+ 
+    }
+
+    .otherContent{
+
+      font-size: clamp(1rem, 0.4vw + 1rem, 3.5rem) !important; 
+
+    }
+
+    .introText {
+      
+
+      font-size: clamp(1rem, 3vw + 1rem, 4rem) !important;
+
+
+    }
+
+
+   
+
+
+
+
+  }
+
+
+  @media(max-width: 450px){
+
+
+    .heroText{
+
+
+      margin-top: 7rem;
+
+
+    }
+
+
+
+  }
+
+
+  @media(max-width: 360px){
+
+    .introText {
+
+      margin-left: -1.5rem; 
+
+
+    }
+
+
+
+
+  }

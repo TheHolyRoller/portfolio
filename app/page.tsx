@@ -22,6 +22,10 @@ import FloatingDockDemo from "@/components/example/floating-dock-demo";
 import FloatingNavDemo from "@/components/example/floating-navbar-demo";
 
 import NextNav from "@/components/NextNav";
+import CardHoverEffectDemo from "@/components/example/card-hover-effect-demo";
+
+import Button from '../components/Button'; 
+
 
 
 import CardImage from '../components/CardImage'; 
@@ -47,28 +51,7 @@ export default function Home() {
     <div className="relative">
 
 
-    <div style={{width: '100vw', outline: '0px solid lime', margin: ' 3rem auto', display: 'grid', placeContent: 'center'}} >
-
-
-    
-
-    
-
-    {/* <Languages/>  */}
-
-    {/* <AnimatedTooltipPreview/>  */}
-
-
-
-
-
-
-   
-
-
-    {/* Add in the grid here  */}
-
-    {/*  */}
+    <div style={{width: '100vw', outline: '0px solid lime', margin: ' 0rem auto', display: 'grid', placeContent: 'center'}} >
 
     <ImagesSliderDemo/> 
     </div>
@@ -82,9 +65,21 @@ export default function Home() {
 
     <div style={{margin: '2rem auto', paddingBottom: '3rem'}} >
 
-    <FocusCardsDemo/> 
+    {/* <FocusCardsDemo/>  */}
+    <CardHoverEffectDemo/>
+    {/* Add in the project Cards here */}
+     </div>
+
+
+    
+
+    <div className="" style={{}} >
     </div>
+
     <ShootingStarsAndStarsBackgroundDemo/> 
+    {/* <Button/>  */}
+
+
 
      
     </div>

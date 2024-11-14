@@ -1,6 +1,19 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+'use client'
 import { HoverEffect } from "../ui/card-hover-effect";
 
 import algo from '../../assets/algochurn.webp'; 
+
+// Import the images here 
+import physio from '../../assets/Projects/PhysioUI.png'; 
+import bot from '../../assets/Projects/PhyonBot.jpg'
+import scrape from '../../assets/Projects/WebScraper.jpg'; 
+import website from '../../assets/Projects/Website.png'; 
+import chatBot from '../../assets/Projects/aichatbot.png'; 
+import ecom from '../../assets/Projects/Ecom.png'; 
+
+
+
 
 export default function CardHoverEffectDemo() {
   return (
@@ -14,45 +27,45 @@ export default function CardHoverEffectDemo() {
 // 
 export const projects = [
   { 
-    image: algo.src,
-    title: "Stripe",
+    image: physio.src,
+    title: "Web App",
     text:
-      "A technology company that builds economic infrastructure for the internet.",
-    url: "https://stripe.com",
+      "Full Stack Web App with contact form, translation, & booking system",
+    url: "",
   },
   { 
-    image: algo.src,
-    title: "Netflix",
+    image: chatBot.src,
+    title: "ChattyBot",
     text:
-      "A web design and development agency that gets the job done. Somehow.",
-    url: "https://netflix.com",
+      "An AI Powered Chat Bot",
+    url: "https://github.com/TheHolyRoller/gpt1",
   },
   { 
-    image: algo.src,
-    title: "Google",
+    image: website.src,
+    title: "Revival",
     text:
-      "A web design and development agency that gets the job done. Somehow.",
-    url: "https://google.com",
+      "A full stack website for a thriving church",
+    url: "https://github.com/TheHolyRoller/website",
   },
   { 
-    image: algo.src,
-    title: "Meta",
+    image: scrape.src,
+    title: "Scrappy",
     text:
-      "A web design and development agency that gets the job done. Somehow.",
-    url: "https://meta.com",
+      "A blazingly fast Web Scraper  ",
+    url: "https://github.com/TheHolyRoller/Scrape.10",
   },
   { 
-    image: algo.src,
-    title: "Amazon",
+    image: bot.src,
+    title: "DealFinder",
     text:
-      "A web design and development agency that gets the job done. Somehow.",
-    url: "https://amazon.com",
+      "A bot that monitors deals & prices in RT",
+    url: "https://github.com/TheHolyRoller/Puppeteer1.0",
   },
   { 
-    image: algo.src,
-    title: "Microsoft",
+    image: ecom.src,
+    title: "E-commer",
     text:
-      "A web design and development agency that gets the job done. Somehow.",
-    url: "https://microsoft.com",
+      "A Full Stack Ecommerce App with all the bells and whistles",
+    url: "https://github.com/TheHolyRoller/EcomWebsite",
   },
 ];

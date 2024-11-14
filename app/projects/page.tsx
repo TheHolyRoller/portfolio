@@ -24,6 +24,7 @@ function page() {
         <ImageSlider/>
         
 
+
         </div>
 
         <div className={p.headlineContainer} >

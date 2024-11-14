@@ -22,6 +22,7 @@ url: string
 
 
 
+
 function CardImage({image, title, text, url}: CardImageProps ) {
   return (
     <div className={ci.cardImageContainer}>
@@ -29,7 +30,11 @@ function CardImage({image, title, text, url}: CardImageProps ) {
     <div className={ci.cardImageSubContainer}>
 
     {/* src="https://devpro-aceternity.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Falgochurn.png&w=3840&q=75" */}
-    <Image className={ci.image} src={image}   alt="project" width={100} height={50} />
+    <Image className={ci.image} src={image}   alt="project" width={200} height={50}
+     quality={100} 
+      
+    
+    />
 
 
     <div className={ci.headerContainer} >

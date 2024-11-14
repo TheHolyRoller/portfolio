@@ -14,6 +14,9 @@ import CardGrid from '@/components/CardGrid';
 
 // import the static assets here 
 import image from '../../assets/Lake.jpg'; 
+import selfie from '../../assets/Me/GoodSelfie.jpg'; 
+
+
 
 
 function page() {
@@ -78,7 +81,8 @@ function page() {
 
     <div className={ab.featureBlockContainer}>
 
-    <ImageText image={image} title='about.' text='' /> 
+    <ImageText image={selfie} title='about.' text='' /> 
+
 
 
 

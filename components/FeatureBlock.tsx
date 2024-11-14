@@ -9,6 +9,7 @@ import yoda from '../assets/yoda.jpg';
 
 
 
+
 function FeatureBlock() {
   return (
 
@@ -93,11 +94,11 @@ function FeatureBlock() {
     </li>
     <li className={m.textItem}>
 
-    I&#39;m into interior design
+    I&#39;m into UX/UI design
     </li>
     <li className={m.textItem}>
 
-    Gardening is my zen time
+    Swimming is my zen time
     </li>
     <li className={m.textItem}>
 
@@ -113,7 +114,7 @@ function FeatureBlock() {
     </li>
     <li className={m.textItem}>
 
-    I&#39;m slightly addicted to Twitter
+    I&#39;m slightly addicted to Coding
     </li>
     <li className={m.textItem}>
 

@@ -39,7 +39,8 @@
 
 
 .image{
-    min-height: 94px;
+    min-height: 100px;
+    max-height: 105px;
     width: 143px;
     border-radius: 10px ;
     -webkit-border-radius: 10px ;
@@ -117,6 +118,7 @@
         min-width: 30vw !important;
         
         /* min-width: 144px;  */
+
 
 
 
